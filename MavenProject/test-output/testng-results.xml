@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30392" started-at="2014-09-19T16:26:47Z" finished-at="2014-09-19T16:27:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30392" started-at="2014-09-19T16:26:47Z" finished-at="2014-09-19T16:27:18Z">
+      <class name="maven_grp.MavenProject.ProfileProxy">
+        <test-method status="PASS" signature="f()[pri:0, instance:maven_grp.MavenProject.ProfileProxy@159742d]" name="f" duration-ms="30371" started-at="2014-09-19T16:26:47Z" finished-at="2014-09-19T16:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- maven_grp.MavenProject.ProfileProxy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

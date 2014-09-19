@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test]">
+  <test name="Update Settings(failed)">
+    <classes>
+      <class name="pageObjectTest.TestPageObject">
+        <methods>
+          <include name="updateSettings"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pageObjectTest.TestPageObject -->
+    </classes>
+  </test> <!-- Update Settings(failed) -->
+</suite> <!-- Failed suite [Regression Test] -->

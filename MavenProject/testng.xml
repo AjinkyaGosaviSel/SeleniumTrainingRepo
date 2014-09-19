@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Test" parallel="false">
+
+	<test name="Update Settings">
+		<classes>
+			<class name="pageObjectTest.TestPageObject" />
+			<methods>
+				<include name="updateSettings"></include>
+			</methods>
+		</classes>
+	</test>
+
+	<!-- <test name="Forgot Password"> <classes> <class name="pageObjectTest.TestPageObject" 
+		/> <methods> <include name="forgotPassword"></include> </methods> </classes> 
+		</test> -->
+
+	<!-- Test Case to call Multiple Classes -->
+	<!-- <test name="Test Case 02"> <classes> <class name="code.SmokeTest" /> 
+		<class name="code.SanityTest" /> </classes> </test> -->
+
+	<!-- Test Case to call Package - All Classes in the Package will be executed. -->
+	<!-- <test name="Test Case 03"> <packages> <package name="code" /> </packages> 
+		</test> -->
+
+	<!-- TestNG Annotations -->
+	<!-- <test name="Test Case 04"> <classes> <class name="code.TestNGAnnotations" 
+		/> </classes> </test> -->
+
+	<!-- Test Case to call particular Method from Class -->
+	<!-- <test name="Test Case 05"> <classes> <class name="code.UtilityClass" 
+		/> <methods> <exclude name="utilityMethod" /> <include name="printNumbers" 
+		/> </methods> </classes> </test> -->
+
+	<!-- Grouping Test Methods (from different Classes) -->
+	<!-- <test name="Test Case 06"> <classes> <class name="code.SmokeTest" /> 
+		<class name="code.FunctionTest" /> <groups> <run> <include name="group2" 
+		/> </run> </groups> </classes> </test> -->
+
+</suite> 
